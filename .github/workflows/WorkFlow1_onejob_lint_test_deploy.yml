@@ -1,4 +1,4 @@
-name: WorkFlow1_onejob lint test deploy
+name: WorkFlow1_onejob_lint_test_deploy
 on:
   push:
     paths-ignore:
