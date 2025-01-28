@@ -1,0 +1,13 @@
+name: WorkFlow1_onejob lint test deploy
+on: push
+jobs: 
+  build:
+    runs-on: ubuntu:latest
+    steps: 
+      - name: Run Lint
+        run: npm lint
+      - name: Run Test
+        run: npm test
+      - name: Run Depoloy
+        run: npm deploy
+  
