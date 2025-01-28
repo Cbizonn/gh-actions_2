@@ -2,6 +2,7 @@ name: WF_on_Issues
 on:
   issues:
     types: [opened, edited, milestoned]
+  workflow_dispatch:
 jobs:
   onissue:
     runs-on: ubuntu-latest
